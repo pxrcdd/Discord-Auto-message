@@ -29,16 +29,17 @@ During execution, you'll be prompted to specify the duration in seconds between 
 
 The script offers the following options:
 
-`--config`: Configure user information by providing user ID, Discord token, Discord channel URL, and Discord channel ID:
+`--config`: Configure user information by providing user ID, Discord token, Discord channel URL, and Discord channel ID: p3rb
+config: p3rb
+```
+python auto.py --config p3rb https://discord.gg/SmWaFvxC ID:1339725018401345658 ziaa
+```
+auto.py --config p3rb
+
+`--setChttps://discord.gg/SmWaFvxC`: Set the channel for message delivery by providing the Discord channel URL and channel ID:1339725018401345658
 
 ```
-python auto.py --config
-```
-
-`--setC`: Set the channel for message delivery by providing the Discord channel URL and channel ID:
-
-```
-python auto.py --setC
+python auto.py --setChttps://discord.gg/SmWaFvxC ID:1339725018401345658
 ```
 
 `--help`: Display help information for the script and its available options:
